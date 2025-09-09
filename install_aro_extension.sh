@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Azure Red Hat OpenShift Extension Installation Script
-# Author: Generated Script
+# Author: vermacodes
 # Description: Download and install the Azure Red Hat OpenShift (ARO) extension for Azure CLI
 
 set -euo pipefail  # Exit on error, undefined vars, pipe failures
