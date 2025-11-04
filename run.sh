@@ -13,11 +13,6 @@ apt install wget -y
 apt install jq -y
 apt install dos2unix -y
 
-# Install redis
-add-apt-repository ppa:redislabs/redis
-apt install redis-server -y
-systemctl enable redis-server
-
 # Install Azure CLI
 # curl -sL https://aka.ms/InstallAzureCLIDeb | bash
 chmod +x install_azure_cli.sh
