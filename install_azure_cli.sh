@@ -7,7 +7,7 @@
 set -euo pipefail  # Exit on error, undefined vars, pipe failures
 
 # Configuration
-readonly AZ_VERSION="2.67.0"
+readonly AZ_VERSION="2.83.0"
 readonly SCRIPT_NAME="$(basename "$0")"
 readonly LOG_FILE="/tmp/azure-cli-install-${AZ_VERSION}.log"
 
