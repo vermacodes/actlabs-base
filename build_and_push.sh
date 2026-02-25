@@ -58,7 +58,7 @@ fi
 # Build the Docker image unless --only-push is set
 if [[ "$ONLY_PUSH" != true ]]; then
   echo "Building Docker image..."
-  docker build -t "$ACR_NAME/$IMAGE_NAME:$TAG" .
+  docker build --no-cache --progress=plain -t "$ACR_NAME/$IMAGE_NAME:$TAG" .
   if [[ $? -ne 0 ]]; then
     echo "Error: Failed to build the Docker image."
     exit 1
